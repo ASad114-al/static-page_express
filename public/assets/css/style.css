@@ -224,3 +224,133 @@ opacity: 0.6;
     display: flex;
     justify-content: space-between;
 }
+
+/* foorer */
+
+#footer1{
+    position: relative;
+    height: 240vh;
+    background-color: #5A98D0;
+    border-top-left-radius: 200px;
+    bottom: 0;
+    z-index: -1;
+    padding: 0 15%;
+}
+#footer2{
+    position: absolute;
+    height: 140vh;
+    width: 80%;
+    margin-left: -15%;
+    padding-left: 15%;
+    background-color: #316099;
+    bottom: 0;
+    z-index: 999;
+    border-top-right-radius: 200px;
+}
+
+
+#footer1 article{
+    padding-top: 15vh;
+    display: flex;
+}
+#footer1 article h2{
+    width: 60%;
+}
+footer h2
+{
+    font-family: Gilroy;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+
+    
+
+ footer p, footer td{
+
+    font-family: Gilroy;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+
+footer table{
+    width: 100%;
+    text-align: center;
+}
+footer table td{
+    height: 140px;
+    font-size: 1.4em;
+}
+footer tr:last-of-type td:last-of-type{
+    background-color: #1F3F68;
+}
+
+
+#footer2 > article:first-of-type{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#footer2 > article:first-of-type h2{
+    margin-bottom: 30px;
+}
+#footer2 > article:first-of-type div:last-of-type{
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+
+footer hr{
+    margin-top: 15vh;
+}
+
+
+#footer3{
+    display: grid;
+    grid-template-columns: 40% 25% 25%;
+    height: 60vh;
+}
+#footer3 article{
+    display: flex;
+    flex-direction: column;
+}
+#footer3 h3{
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: normal;
+}
+#footer3 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer3 ul{
+    padding-left: 0;
+}
+#footer3 li{
+    list-style: none;
+    margin-top: 30px;
+}
+#footer3 span{
+    font-weight: bold;
+    padding-right: 20px;
+}
+#footer3 p, #footer3 div{
+    margin-bottom: 30px;
+}
+#footer3 + p{
+    opacity: 0.4
+}
+
+.btn3
+{
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 4% 15%;
+    text-decoration: none;
+    color: white;
+}
